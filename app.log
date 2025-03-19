@@ -1,0 +1,65 @@
+2025-03-16 10:27:39,096 - gtts.tts - DEBUG - text: Hi this is Ai with Pritom!
+2025-03-16 10:27:39,097 - gtts.tts - DEBUG - tld: com
+2025-03-16 10:27:39,097 - gtts.tts - DEBUG - lang: en
+2025-03-16 10:27:39,097 - gtts.tts - DEBUG - slow: False
+2025-03-16 10:27:39,097 - gtts.tts - DEBUG - lang_check: True
+2025-03-16 10:27:39,098 - gtts.tts - DEBUG - pre_processor_funcs: [<function tone_marks at 0x000000002B3D5260>, <function end_of_line at 0x000000002B3D5DA0>, <function abbreviations at 0x000000002B3D5E40>, <function word_sub at 0x000000002B3D5EE0>]
+2025-03-16 10:27:39,105 - gtts.tts - DEBUG - timeout: None
+2025-03-16 10:27:39,105 - gtts.lang - DEBUG - langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2025-03-16 10:27:39,106 - gtts.tts - DEBUG - pre-processing: <function tone_marks at 0x000000002B3D5260>
+2025-03-16 10:27:39,107 - gtts.tts - DEBUG - pre-processing: <function end_of_line at 0x000000002B3D5DA0>
+2025-03-16 10:27:39,107 - gtts.tts - DEBUG - pre-processing: <function abbreviations at 0x000000002B3D5E40>
+2025-03-16 10:27:39,108 - gtts.tts - DEBUG - pre-processing: <function word_sub at 0x000000002B3D5EE0>
+2025-03-16 10:27:39,109 - gtts.tts - DEBUG - text_parts: ['Hi this is Ai with Pritom!']
+2025-03-16 10:27:39,109 - gtts.tts - DEBUG - text_parts: 1
+2025-03-16 10:27:39,110 - gtts.tts - DEBUG - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Hi%20this%20is%20Ai%20with%20Pritom%21%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2025-03-16 10:27:39,111 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translate.google.com:443
+2025-03-16 10:27:39,640 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000000027B51EB0> server_hostname='api.gradio.app' timeout=3
+2025-03-16 10:27:42,641 - httpcore.connection - DEBUG - start_tls.failed exception=ConnectTimeout(TimeoutError('_ssl.c:1001: The handshake operation timed out'))
+2025-03-16 10:27:48,121 - urllib3.connectionpool - DEBUG - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2025-03-16 10:27:57,724 - gtts.tts - DEBUG - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '168'}
+2025-03-16 10:27:57,724 - gtts.tts - DEBUG - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2025-03-16 10:27:57,725 - gtts.tts - DEBUG - status-0: 200
+2025-03-16 10:27:57,726 - gtts.tts - DEBUG - part-0 written to <_io.BufferedWriter name='gtts_testing.mp3'>
+2025-03-16 10:27:57,726 - gtts.tts - DEBUG - part-0 created
+2025-03-16 10:27:57,727 - gtts.tts - DEBUG - Saved to gtts_testing.mp3
+2025-03-16 10:27:57,735 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-03-16 10:27:57,738 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-16 10:27:57,960 - httpcore.connection - DEBUG - connect_tcp.started host='api.gradio.app' port=443 local_address=None timeout=3 socket_options=None
+2025-03-16 10:27:57,976 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-03-16 10:27:58,206 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=7860 local_address=None timeout=None socket_options=None
+2025-03-16 10:27:58,207 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000000002D7A6D50>
+2025-03-16 10:27:58,208 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-03-16 10:27:58,209 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-16 10:27:58,209 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-03-16 10:27:58,209 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-16 10:27:58,210 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-03-16 10:27:58,210 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Sun, 16 Mar 2025 04:27:57 GMT'), (b'server', b'uvicorn'), (b'content-length', b'4'), (b'content-type', b'application/json')])
+2025-03-16 10:27:58,211 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-03-16 10:27:58,211 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-03-16 10:27:58,211 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-16 10:27:58,211 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-16 10:27:58,212 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-16 10:27:58,212 - httpcore.connection - DEBUG - close.started
+2025-03-16 10:27:58,213 - httpcore.connection - DEBUG - close.complete
+2025-03-16 10:27:58,214 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=7860 local_address=None timeout=3 socket_options=None
+2025-03-16 10:27:58,234 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000000002D7A7610>
+2025-03-16 10:27:58,235 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'HEAD']>
+2025-03-16 10:27:58,235 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-16 10:27:58,236 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'HEAD']>
+2025-03-16 10:27:58,236 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-16 10:27:58,237 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'HEAD']>
+2025-03-16 10:27:58,251 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Sun, 16 Mar 2025 04:27:57 GMT'), (b'server', b'uvicorn'), (b'content-length', b'32476'), (b'content-type', b'text/html; charset=utf-8')])
+2025-03-16 10:27:58,252 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-03-16 10:27:58,253 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'HEAD']>
+2025-03-16 10:27:58,253 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-16 10:27:58,254 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-16 10:27:58,254 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-16 10:27:58,254 - httpcore.connection - DEBUG - close.started
+2025-03-16 10:27:58,254 - httpcore.connection - DEBUG - close.complete
+2025-03-16 10:27:58,257 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-16 10:27:59,991 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000000002D7A9480>
+2025-03-16 10:27:59,992 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000000002CA1EC30> server_hostname='api.gradio.app' timeout=3
+2025-03-16 10:28:02,177 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/telemetry/gradio/initiated HTTP/1.1" 200 0
+2025-03-16 10:28:02,182 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/telemetry/gradio/launched HTTP/1.1" 200 0
+2025-03-16 10:28:02,990 - httpcore.connection - DEBUG - start_tls.failed exception=ConnectTimeout(TimeoutError('_ssl.c:1001: The handshake operation timed out'))
